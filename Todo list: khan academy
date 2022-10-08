@@ -1,0 +1,10 @@
+--create new table for to do list from khan academy
+
+CREATE TABLE todo_list (id INTEGER PRIMARY KEY, item TEXT, minutes INTEGER);
+INSERT INTO todo_list VALUES (1, "Wash the dishes", 15);
+INSERT INTO todo_list VALUES (2, "vacuuming", 20);
+INSERT INTO todo_list VALUES (3, "Learn some stuff on KA", 30);
+Insert into todo_list VALUES (4, "sleep", 45);
+
+--sum of all activities
+Select Sum(minutes) from todo_list;
