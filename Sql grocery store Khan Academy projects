@@ -1,3 +1,5 @@
+--Break in to Tech Sql projects.
+
 --Create a grocery store database
 
 CREATE TABLE Grocery_store (id INTEGER PRIMARY KEY, item TEXT, section TEXT, price INTEGER, popularity INTEGER);
@@ -34,3 +36,5 @@ SELECT item, price, popularity
 FROM Grocery_store
 order by popularity desc
 limit 5; 
+
+-- 
